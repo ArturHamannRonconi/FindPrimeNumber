@@ -9,6 +9,6 @@ public class Controller
     try
       { executor.exe(); }
     catch (Exception e)
-      { System.out.println("Houve um erro: " + e.getMessage()); }
+      { System.out.println("Please, enter a Integer number without floating point!"); }
   }  
 }
