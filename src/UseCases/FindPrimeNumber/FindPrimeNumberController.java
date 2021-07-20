@@ -24,5 +24,6 @@ public class FindPrimeNumberController extends Controller
     };
 
     super.tryCatch(executor);
+    input.close();
   }  
 }
